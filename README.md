@@ -29,7 +29,8 @@ The preprocessing stage includes: separating transactions and offers data, combi
 Modeling stage includes: 
 1. Finding out the accuracy and F1-score of a naive predictor model that assumes all offers were successful. 
 2. Buidling and comparing performance of a logistic regression and random forest model. 
-3. Finding out most important features in these predictions.
+3. Optimizing the best performing model through parameter tuning.
+4. Finding out most important features in these predictions.
 ## Results
 1. Random forest model has the best training data and test data accuracy and F1-score: 
   Training data:
@@ -39,11 +40,11 @@ Modeling stage includes:
     RandomForestClassifier model accuracy: 0.738
     RandomForestClassifier model f1-score: 0.729
 2. The top 5 features that play most important role in the predictions are:
-  1. Mobile channel as medium of offer
-  2. Age of the customer
-  3. Social platform as medium of offer
-  4. Reward amount
-  5. The year a person became Starbucks member
+    1. Mobile channel as medium of offer
+    2. Age of the customer
+    3. Social platform as medium of offer
+    4. Reward amount
+    5. The year a person became Starbucks member
 The main observations of the code are published in this blog [on medium.com](https://medium.com/starbucks-capstone-project/introduction-490213b1f474)
 ## Acknowledgement
 Thanks to Udacity Data Scientist Nanodegree content creators for providing us the opportunity to work on this project and Starbucks for providing the dataset.
