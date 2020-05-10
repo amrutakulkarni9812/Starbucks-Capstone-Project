@@ -34,11 +34,11 @@ Modeling stage includes:
 ## Results
 1. Random forest model has the best training data and test data accuracy and F1-score: 
   Training data:
-    RandomForestClassifier model accuracy: 0.761
-    RandomForestClassifier model f1-score: 0.752 
+    * RandomForestClassifier model accuracy: 0.761
+    * RandomForestClassifier model f1-score: 0.752 
   Test Data:
-    RandomForestClassifier model accuracy: 0.738
-    RandomForestClassifier model f1-score: 0.729
+    * RandomForestClassifier model accuracy: 0.738
+    * RandomForestClassifier model f1-score: 0.729
 2. The top 5 features that play most important role in the predictions are:
     1. Mobile channel as medium of offer
     2. Age of the customer
