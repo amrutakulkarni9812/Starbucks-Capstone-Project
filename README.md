@@ -1,5 +1,6 @@
 # Predictive model to analyze ‘Responsiveness of customers to Starbucks offers’
 ![Alt text](https://www.bakingbusiness.com/ext/resources/2019/4/04292019/StarbucksRewardsApp_Lead.jpg?1556306856=true "Starbucks-Capstone-Project")
+
 In this project, I have analyzed customer behavior in the Starbucks mobile app. The customers receive promotional offers every few days. The task is to identify which customers are influenced by promotional offers. From a business perspective, it doesn’t make sense to send all offers to all customers and this analysis will help us find target audience in order to optimize marketing ROI.
 ## Installation
 For running this project, the most important library is Python 3 version of Anaconda Distribution. It installs all necessary packages for analysis and building models. Additionaly, you will need to install 'progressbar2' package.
@@ -39,6 +40,7 @@ Modeling stage includes:
   * Test Data:
     * RandomForestClassifier model accuracy: 0.738
     * RandomForestClassifier model f1-score: 0.729
+    
 2. The top 5 features that play most important role in the predictions are:
     1. Mobile channel as medium of offer
     2. Age of the customer
