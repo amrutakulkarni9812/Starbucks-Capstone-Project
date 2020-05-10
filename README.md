@@ -33,10 +33,10 @@ Modeling stage includes:
 4. Finding out most important features in these predictions.
 ## Results
 1. Random forest model has the best training data and test data accuracy and F1-score: 
-  Training data:
+  * Training data:
     * RandomForestClassifier model accuracy: 0.761
     * RandomForestClassifier model f1-score: 0.752 
-  Test Data:
+  * Test Data:
     * RandomForestClassifier model accuracy: 0.738
     * RandomForestClassifier model f1-score: 0.729
 2. The top 5 features that play most important role in the predictions are:
