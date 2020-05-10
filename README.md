@@ -45,6 +45,7 @@ Modeling stage includes:
     3. Social platform as medium of offer
     4. Reward amount
     5. The year a person became Starbucks member
-The main observations of the code are published in this blog [on medium.com](https://medium.com/starbucks-capstone-project/introduction-490213b1f474)
+## Blog Post
+The main observations of the analysis are published here: [on medium.com](https://medium.com/starbucks-capstone-project/introduction-490213b1f474)
 ## Acknowledgement
 Thanks to Udacity Data Scientist Nanodegree content creators for providing us the opportunity to work on this project and Starbucks for providing the dataset.
